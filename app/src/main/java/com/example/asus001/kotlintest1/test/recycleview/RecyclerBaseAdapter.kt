@@ -11,7 +11,7 @@ import com.example.asus001.kotlintest1.R
 /**
  * Created by ASUS001 on 2017/9/21.
  */
-public class RecyclerBaseAdapter(var context:Context,var list:MutableList<String>?) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class RecyclerBaseAdapter(var context:Context,var list:MutableList<String>?) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder?, position: Int) {
         var itemHolder:ViewHolder = holder as ViewHolder

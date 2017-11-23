@@ -25,7 +25,7 @@ class RecyclerViewTextActivity : AppCompatActivity() {
     }
 
     private fun getData():Unit{
-        list = ArrayList<String>()
+        list = ArrayList<String>() as MutableList<String>?
         for (i in 1..12){
             list!!.add("$i")
         }

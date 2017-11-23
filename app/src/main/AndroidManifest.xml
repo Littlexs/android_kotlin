@@ -8,11 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".test.BaseApp"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".test.recycleview.RecyclerViewTextActivity">
 
         </activity>
-        <activity android:name=".test.recycleview.RecyclerViewTextActivity">
+        <activity android:name=".test.viewpager.ViewPageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
